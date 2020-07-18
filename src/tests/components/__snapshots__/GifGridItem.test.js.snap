@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifGridItem> should create the component correctly 1`] = `
+<div
+  className="card animate__animated animate__bounceIn"
+>
+  <img
+    alt="Title"
+    className="card-img-top"
+    src="http://localhost:4200"
+  />
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      Title
+    </h5>
+  </div>
+</div>
+`;

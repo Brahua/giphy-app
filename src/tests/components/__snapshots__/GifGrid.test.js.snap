@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifGrid> should create the component correctly 1`] = `
+<div
+  className="row mx-3 mx-sm-0"
+>
+  <h3
+    className="title-section w-100 animate__animated animate__fadeIn"
+  >
+    DBZ
+  </h3>
+  <div
+    className="spinner-border text-info my-3"
+    role="status"
+  >
+    <span
+      className="sr-only"
+    >
+      Loading...
+    </span>
+  </div>
+  <div
+    className="card-columns"
+  />
+</div>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <GifExpertApp> should render correctly 1`] = `
+<Fragment>
+  <div
+    className="jumbotron jumbotron-fluid bg-color-jumbotron"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="display-4"
+      >
+        GiphyApp
+      </h1>
+      <p
+        className="lead"
+      >
+        This is a React app
+      </p>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <AddCategory
+      setCategories={[Function]}
+    />
+    <hr />
+    <GifGrid
+      category="DBZ"
+      key="DBZ"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Tests in <GifExpertApp> should show an array of gif´s categories 1`] = `
+<Fragment>
+  <div
+    className="jumbotron jumbotron-fluid bg-color-jumbotron"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="display-4"
+      >
+        GiphyApp
+      </h1>
+      <p
+        className="lead"
+      >
+        This is a React app
+      </p>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <AddCategory
+      setCategories={[Function]}
+    />
+    <hr />
+    <GifGrid
+      category="Naruto"
+      key="Naruto"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="Dragon Ball"
+    />
+  </div>
+</Fragment>
+`;

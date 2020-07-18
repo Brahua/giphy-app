@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <AddCategory> should create the component correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    placeholder="Ingrese una palabra para buscar los gifs relacionados"
+    type="text"
+    value=""
+  />
+</form>
+`;

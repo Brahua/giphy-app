@@ -8,9 +8,8 @@ export const useFetchGif = (category) => {
   })
 
   useEffect(() => {
-    getGifs(category).then( (gifs) => {
-        setState({ data: [...gifs], loading: false})
-    })
+    getGifs(category)
+      .then(gifs => setState({ data: [...gifs], loading: false}))
   }, [category])
 
   return state
